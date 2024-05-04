@@ -1,0 +1,43 @@
+.signupcontainer{
+    margin-top:5rem ;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.logoimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupininputcontainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+.custom-btn-white{
+    border: 1px solid #dee5e9;
+    background-color: #e4eef8;
+    color: #000;
+    height: 2.5rem;
+}
+.socialdesktop{
+    display: block;
+}
+.socailmobile{
+   display: none;
+}
+@media only screen and (max-width :450px){
+    .socialdesktop{
+        display: none;
+    }
+    .socailmobile{
+       display: block;
+    }
+}

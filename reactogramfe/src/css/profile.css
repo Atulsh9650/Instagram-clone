@@ -1,0 +1,107 @@
+.profilecontainer{
+    margin-left: 12%;
+    width: 76vw;
+}
+.profileimage{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+}
+.profileaboutinfo{
+    gap: 15px;
+}
+.uploadbutton,.editbutton{
+     border: 1px solid gray !important;
+     padding: 6px;
+}
+.profileaboutinfo{
+    font-weight:800;
+    font-size:medium;
+}
+.images-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.profile_image{
+    border: 1px solid rgb(132, 130, 130) !important;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.postbtn{
+    margin-top: 100px;
+    background-color: rgb(222, 62, 121) ;
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+}
+.postbtn:hover{
+    background-color: rgb(140, 60, 73);
+}
+
+.upload-box{
+    height: 400px;
+    width: 360px;
+    border: 4px dotted gray;
+    border-radius: 10px;
+    position: relative;
+}
+.dropZoneContainer{
+    width: 283px;
+    height: 105px;
+    padding: 10px;
+    font-family: cursive;
+    color: #7066fb;
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    text-align: center;
+   
+}
+
+.FileUpload {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.imagepreview{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+}
+@media only screen and (max-width :500px){
+    .editbutton,.uploadbutton{
+        font-size: 8px !important;
+        font-weight: bold !important;
+    }
+    .profileimage{
+        height: 60px;
+        width: 60px;
+    }
+    .profilecontainer{
+        margin: 0%;
+        width: 100vw;
+    }
+    .profileaboutinfo{
+        font-weight:600;
+        font-size:small;
+    }
+   
+}
+@media only screen and (max-width :400px){
+    .profile_image{
+        width: 9rem !important;
+    }
+}

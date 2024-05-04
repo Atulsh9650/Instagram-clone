@@ -1,0 +1,46 @@
+.navbar{
+    height: 75px !important;
+    
+}
+.loggedprofile{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+.searachiac{
+    width: 450px;
+}
+.searchinput{
+    border: none !important;
+    padding: 5px;
+    margin-right: none;
+}
+.searchbutton{
+    border: none;
+    width: 40px;
+    margin-right: 10px;  
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.searachiac{
+    display: block;
+}
+.collapsemenubar{
+    display: none;
+}
+@media only screen and (max-width :650px){
+    .searachiac{
+        display: none;
+    }
+    .collapsemenubar{
+        display: block;
+    }
+    .searchbutton{
+        background-color: white;
+    }
+}
+  

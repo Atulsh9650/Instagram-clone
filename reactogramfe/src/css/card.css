@@ -1,0 +1,51 @@
+.profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.card{
+    width: 300px;
+    margin: 13px;
+    background-color: rgb(245, 245, 245) !important;
+}
+.card-row{
+    display: flex;
+    align-items: center;
+}
+.location{
+    margin-top: -14px;
+    font-size:14px;
+}
+.post-image{
+    width: 100%;
+    height: 250px;
+}
+.authorname{
+    font-size: 13px;
+    font-weight: bold;
+}
+.comment-section{
+    display: flex;
+    align-items: center;
+}
+.comment-btn{
+    border: none !important;
+}
+.comment-text{
+    height: 100px !important;
+    font-size: smaller;
+}
+.commented-by{
+  font-weight: bold;
+  font-size: small;
+}
+.commentsdiv{
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 3px;
+}
